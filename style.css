@@ -1,0 +1,72 @@
+ *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+.container{
+    background-color: #fff;
+    margin: 50px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.container .item{
+    width: 40%;
+    height: 300px;
+    margin: 0 40px;
+    background-color: black;
+}
+
+.container .bd{
+    background-color: #046440;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .bd .crl , .jap .crl{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #f4263f ;
+}
+.container .jap{
+    background-color: #f6ecec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .pol{
+    position: relative;
+}
+.container .pol .fst{
+    width: 100%;
+    height: 50%;
+    background-color: #f7f7f7 ;
+}
+.container .pol .sec{
+    width: 100%;
+    height: 50%;
+    background-color: #D5133A;
+    
+}
+.container .rm{
+    position: relative;
+}
+.container .rm .fst{
+    width: 100%;
+    height: 33.33%;
+    background-color: #002A78 ;
+}
+.container .rm .sec{
+    width: 100%;
+    height: 33.33%;
+    background-color: #FACA15;
+}
+.container .rm .thr{
+    width: 100%;
+    height: 33.33%;
+    background-color: #c81025;
+}
